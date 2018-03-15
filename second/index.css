@@ -12,14 +12,12 @@ body{
 
 /* TOP BOX */
 
-.top-container{
+.top-container, .middle-container{
     border: solid 5px black;
     width: 100%;
     height: 30vh;
     padding: 10px;
     margin: 0;
-    /* display: inline; */
-    /* position: inherit; */
 }
 
 .tall-box{
@@ -28,8 +26,6 @@ body{
     height: 70%;
     margin: 0;
     display: inline-block;
-    /* position: relative; */
-    /* bottom: 0; */
 }
 
 .wide-box{
@@ -43,9 +39,33 @@ body{
 
 .circle{
     background-color: lightblue;
-    width: 115px;
-    height: 115px;
+    /* width: 115px; */
+    width: 165px;
+    height: 165px;
     display: inline-block;
     margin-left: 35px;
     border-radius: 100%;
+}
+
+.middle-container{
+    border: dotted 5px black;
+    margin: 15px 0;
+}
+
+.rectangle{
+    background-color: rgb(255, 248, 152);
+    width: 80%;
+    height: 80%;
+    margin: 1.5% auto;
+    box-shadow: 10px 10px 10px;
+}
+
+.bottom-container{
+    width: 40%;
+    height: 33%;
+    margin: auto;
+    text-align: center;
+    /* border: grey 2px solid; */
+    box-shadow: grey 0px 0px 15px;
+    padding: 7%;
 }
